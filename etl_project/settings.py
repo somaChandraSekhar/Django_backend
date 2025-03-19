@@ -132,7 +132,7 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Allowed hosts for Azure
-ALLOWED_HOSTS = ['etl_app.azurewebsites.net', 'localhost']
+ALLOWED_HOSTS = ['.azurewebsites.net', 'localhost','my-django-backend-euetcwafe5bkcrb7.canadacentral-01.azurewebsites.net']
 
 
 
